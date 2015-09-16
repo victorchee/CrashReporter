@@ -1,0 +1,18 @@
+//
+//  CrashReporter-Prefix.pch
+//  CrashReporter
+//
+//  Created by qihaijun on 9/16/15.
+//  Copyright (c) 2015 VictorChee. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIkit.h>
+#import <Foundation/Foundation.h>
+#endif
